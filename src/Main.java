@@ -1,5 +1,6 @@
 //Estructuras alternativas IF, IF-ELSE, SWITCH
 
+
 import java.util.Scanner;
 
 public class Main {
@@ -12,6 +13,8 @@ public class Main {
     static String subopcion;
 
     public static void main() {
+
+        System.out.println("Hola,mundo");
         do{
             menu();
             opcion = sc.nextInt();
